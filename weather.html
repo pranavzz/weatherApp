@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link href="styleWeather.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Details</h1>
+        <div class="description">
+            <h3 id="location">Location :</h3>
+                <label for="temps">Temperature:</label>
+                <select name="temps" id="temps">
+                  <option id="Temp" class="Temp"></option>
+                  <option id="Tempf" class="Tempf"></option>
+                </select>
+            <h4 id="windSpd">Wind: </h4>
+            <h4 id="humid">Humiditiy: </h4>
+        </div>
+        <button id="backButton"><a>Go back</a></button>
+    </div>
+
+    <script src="scriptWeather.js">
+    </script>
+</body>
+</html>
