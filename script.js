@@ -6,8 +6,7 @@ const getCityDetails = async () => {
   if (!cityName) {
     return;
   }
-  const API_URL = ` http://api.weatherapi.com/v1/current.json?key=98e7ffbd323a42658ca165739232809&q=${cityName}&aqi=yes`;
-
+  const API_URL = ` https://api.weatherapi.com/v1/current.json?key=98e7ffbd323a42658ca165739232809&q=${cityName}&aqi=yes`;
   await fetch(API_URL)
   .then(res => res.json()).then(data=>{
       console.log(data);

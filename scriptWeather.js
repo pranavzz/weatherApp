@@ -4,7 +4,6 @@ const loc = localStorage.getItem("location");
 const humid = localStorage.getItem("humidity");
 const windSpeed = localStorage.getItem("wind");
 
-
 const divTag1 = document.getElementById("Temp");
 divTag1.innerText = divTag1.innerText + temp + " °C";
 
